@@ -227,6 +227,7 @@ function create_config( )
     "set",
     "aparat",
     "cpu",
+    "auto_leave",
     "get",
     "broadcast",
     "download_media",
