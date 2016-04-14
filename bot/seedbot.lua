@@ -235,6 +235,7 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
+    "translate",
     "admin",
     "addplug",
     "boobs",
