@@ -211,6 +211,7 @@ function create_config( )
     "onservice",
     "inrealm",
     "ingroup",
+    "block",
     "inpm",
     "banhammer",
     "anti_bot",
