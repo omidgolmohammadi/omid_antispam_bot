@@ -244,6 +244,7 @@ function create_config( )
     "google",
     "gps",
     "help_fa",
+    "setrank",
     "info",
     "linkpv",
     "location",
@@ -262,6 +263,7 @@ function create_config( )
     "text",
     "time",
     "version",
+    "tooti",
     "webshot",
     "welcome"
     },
