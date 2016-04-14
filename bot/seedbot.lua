@@ -240,6 +240,7 @@ function create_config( )
     "boobs",
     "calc",
     "filtering",
+    "hello",
     "google",
     "gps",
     "help_fa",
