@@ -353,211 +353,110 @@ Realm Commands:
     
 Omid_anti_spam_bot Help for mods : 😈
 
-Plugins : 🔻
+Commands list :
 
-1. banhammer ⭕️
-Help For Banhammer👇
-دستورات حذف و کنترل گروه
+!kick [username|id]
+🔘You can also do it by reply
 
-!Kick @UserName 😜
-And You Can do It by Replay 🙈
-برای حذف کسی به کار میره همچنین با ریپلی هم میشه 
+!ban [ username|id]
+🔘You can also do it by reply
 
-!Ban @UserName 〽️
-You Can Do It By Replay👌
-برای بن کردن شخصی استفاده میشه با ریپلی هم میشه 
+!unban [id]
+🔘You can also do it by reply
 
-!Unban @UserName
-You Can Do it By Replay😱
-کسیرو آنبن میکنید و با ریپلی هم میشه
+!who
+🔘Members list
 
-For Admins : 👇
+!modlist
+🔘Moderators list
 
-!banall @UserName or (user_id)😺
-you Can do it By Replay 👤
-برای بن از تمامی گروه ها استفاده میشه
+!promote [username]
+🔘Promote someone
 
-!unbanall 🆔User_Id🆔
-برای انبن کردن شخص از همه ی گروه ها 
-〰〰〰〰〰〰〰〰〰 〰
-2. GroupManager :🔹
+!demote [username]
+🔘Demote someone
 
-!lock leave : 🚷
-If someone leaves the group he cant come back
-اگر کسی از گروه برود نمیتواند برگردد
+!kickme
+🔘Will kick user
 
-!Creategp "GroupName" 🙈
-You Can CreateGroup With this command😱
-با این دستور گروه میسازند که مخصوص ادمین ها و سازنده هست
+!about
+🔘Group description
 
-!lock member 😋
-You Can lock Your Group Members 🔻
-با این دستور اجازه ورود به گروه رو تعیین میکنید
+!setphoto
+🔘Set and locks group photo
 
-!lock bots 🔹
-No bots can come in Your gp 🕶
-از آمدن ربات به گروه جلوگیری میکنید
+!setname [name]
+🔘Set group name
 
-!lock name ❤️
-no one can change your gpname💍
-اسم گروه را قفل میکنید
+!rules
+🔘Group rules
 
-!lock_join
-no one can join via link👓
-دیگ کسی نمیتونه با لینک جوین بده
+!id
+🔘Return group id or user id
 
-!setflood😃
-Set the group flood control🈹
-میزان اسپم را در گروه تعیین میکنید
+!help
+🔘Get commands list
 
-!settings ❌
-Watch group settings
-تنظیمات فعلی گروه را میبینید
+!lock [member|name|bots|leave] 
+🔘Locks [member|name|bots|leaveing] 
 
-!owner🚫
-watch group owner
-آیدی سازنده گروه رو میبینید
+!unlock [member|name|bots|leave]
+🔘Unlocks [member|name|bots|leaving]
 
-!setowner user_id❗️
-You can set someone to the group owner‼️
-برای گروه سازنده تعیین میکنید
- 
-!modlist💯
-watch Group mods🔆
-لیست مدیران گروه رو میبینید
+!set rules [text]
+🔘Set [text] as rules
 
-!lock fosh : 
-Lock using bad words in Group 🙊
-از دادن فحش در گروه جلوگیری میکند
+!set about [text]
+🔘Set [text] as about
 
-!lock link : 
-Lock Giving link in your group . ☑️
-از دادن لینک در گروه جلوگیری میکند
+!settings
+🔘Returns group settings
 
-!lock english : 
-Lock Speaking English in group 🆎
-از حرف زدن انگلیسی یا نوشتن انگلیسی در گروه جلوگیری کنید
+!newlink
+🔘Create/revoke your group link
 
-!lock tag : 
-Lock Tagging in Group with # and @ symbols 📌
-از تگ کردن ای دی یا کانال یا .. جلوگیری میکند
+!link
+🔘Returns group link
 
-!lock flood⚠️
-lock group flood🔰
-اسپم دادن رو در گروه قدغا میکنید
+!owner
+🔘Returns group owner id
 
-!unlock (bots-member-flood-photo-name-Arabic)✅
-Unlock Something🚼
-همه ی موارد بالا را با این دستور آزاد میسازید
+!setowner [id]
+🔘Will set id as owner
 
-!rules 🆙 or !set rules🆗
-watch group rules or set
-برای دیدن قوانین گروه و یا انتخاب قوانین 
+!setflood [value]
+🔘Set [value] as flood sensitivity
 
-!about or !set about 🔴
-watch about group or set about
-در مورد توضیحات گروه میدهد و یا توضیحات گروه رو تعیین کنید 
+!stats
+🔘Simple message statistics
 
-!res @username🔘
-See UserInfo©
-در مورد اسم و ای دی شخص بهتون میده 
+!save [value] [text]
+🔘Save [text] as [value]
 
-!who♦️
-Get Ids Chat🔺
-تمامی ای دی های موجود در چت رو بهتون میده
+!get [value]
+🔘Returns text of [value]
 
-!log 🎴
-get members id ♠️
-تمامی فعالیت های انجام یافته توسط شما و یا مدیران رو نشون میده
+!clean [modlist|rules|about]
+🔘Will clear [modlist|rules|about] and set it to nil
 
-!all🔴
-this is like stats in a file🔸
-همه ی اطلاعات گروه رو میده
+!res [username]
+🔘Returns user id
 
-!newlink : 🔓
-Revokes the Invite link of Group. �
-لینک گروه رو عوض میکنه 
+!log
+🔘Will return group logs
 
-!getlink : 💡
-Get the Group link in Group .
-لینک گروه را در گروه نمایش میده
+!banlist
+🔘Will return group ban list
 
-!linkpv : 🔐
-To give the invitation Link of group in Bots PV.
-برای دریافت لینک در پیوی استفاده میشه 
-〰〰〰〰〰〰〰〰
-Admins :®
+>>For see plugins send "!plugins"
 
-!addgp 😎
-You Can add the group to moderation.json😱
-برای آشنا کردن گروه به ربات توسط مدیران  اصلی ربات
+» U can use both "/" and "!" 
 
-!remgp 😏
-You Can Remove the group from mod.json⭕️
-برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
+» Only mods, owner and admin can add bots in group
 
-!setgpowner (Gpid) user_id 
-from realm®®
-برای تعیین سازنده ای برای گروه 
+» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-!addadmin 🔶
-set some one to global admin🔸
-برای اضافه کردن ادمین اصلی به ربات 
-
-!removeadmin🔘
-remove somone from global admin🔹
-برای حذف کردن ادمین اصلی از ربات 
-〰〰〰〰〰〰〰〰〰〰〰
-3. Stats :©
-
-!stats omid_anti_spam_bot (sudoers)✔️
-shows bt stats🔚
-برای دیدن آمار ربات انتی اسپم امید
-
-!stats🔘
-shows group stats💲
-آمار گروه را نشان میده
-〰〰〰〰〰〰〰〰
-4. Feedback⚫️
-
-!feedback txt🔻◼️
-send maseage to admins via bot🔈
-برای فرستادن هر حرف و انتقاد و ... توسط ربات به مدیریت ربات
-〰〰〰〰〰〰〰〰〰〰〰
-5. Tagall◻️
-
-!tagall txt🔸
-will tag users©
-تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
-〰〰〰〰〰〰〰〰〰
-♨️more plugins 
-
-!time [place]
-👽show time place
-نمایش زمان مکان مورد نظر
-
-!calc 6+8
-➡️do mathematics calculation
-انجام محاسبات ریاضی
-
-!translate [search]
-♻️search in translate
-جست و جو در ترانسلیت
-
-!google [search any things]
-🌐search in google
-جست و جو در گوگل
-
-!echo [any things]
-🔄echo any thing you type
-هرچی بگی میگه
-
-!aparat [search]
-©search in aparat
-جست و جو در آپارات
-〰〰〰〰〰〰〰〰〰
-You Can user both"!" & "/" for them🎧
-میتوانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
+» Only owner can use res,setowner,promote,demote and log commands
 
 Our chanals: @omid_antispam_bot_chanal
 
